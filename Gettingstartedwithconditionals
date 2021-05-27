@@ -1,0 +1,9 @@
+read val
+
+if [ $val == "y" -o $val == "Y" ]
+then
+echo "YES"
+elif [ $val == "n" -o $val == "N" ]
+then
+echo "NO"
+fi
